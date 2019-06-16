@@ -1,18 +1,46 @@
-<div class="jumbotron">
-  <h1 class="display-4">Burger Bar</h1>
-  <p class="lead">Create and devour your favorite burger in seconds! </p>
-  <hr class="my-4">
+<!-- Image and text -->
+<nav class="navbar navbar-light bg-white fixed-top ">
+  <a class="navbar-brand" href="/">
+    <img src="assets/img/burger2.png" width="30" height="30" class="d-inline-block align-top" alt="">
+    the burger bar nyc
+  </a>
+</nav>
 
-  <a class="btn btn-primary btn-lg letsPlay" href="#" role="button">Let's eat!</a>
+<div class="jumbotron">
+  <div class="container animated slideInDown slow headerText">
+  <h4 class="display-4">the burger <br>
+  bar nyc</h4>
+  <p class="lead">Create and devour your favorite <br>burger in seconds! </p>
+
+  <a class="btn btn-rounded waves-effect" href="#wrapAll" role="button">Let's eat! <i class="fas fa-hamburger"></i>
+</a>
+  </div>
 </div>
 
 
+<div class="container burgerInput">
+  <div class="row">
+    <div class="col">
+      <h2>Add a Burger</h2>
+      <form class="create-form">
 
+        <div class="form-group">
+          <label for="burg">Burger Name:</label>
+          <input type="text" id="burg" name="name">
+          <button type="submit">Add Burger</button>
+        </div>
+
+      </form>
+    </div>
+  </div>
+</div>
+
+<div id="wrapAll">
 <div class="container">
   <div class="row">
     <div class="col-6">
       <div class="card" style="width: 18rem;">
-        <div class="card-header">
+        <div class="card-header" style="background-color: black; color:white;">
           New Burgers
         </div>
         <ol class="list-group list-group-flush">
@@ -29,7 +57,7 @@
 
     <div class="col-6">
       <div class="card" style="width: 18rem;">
-        <div class="card-header">
+        <div class="card-header" style="background-color: black; color:white;">
           Devoured Burgers
         </div>
         <ol class="list-group list-group-flush">
@@ -45,20 +73,5 @@
     </div>
   </div>
 </div>
-
-<div class="container">
-  <div class="row">
-    <div class="col">
-      <h2>Add a Burger</h2>
-      <form class="create-form">
-
-        <div class="form-group">
-          <label for="burg">Burger Name:</label>
-          <input type="text" id="burg" name="name">
-          <button type="submit">Add Burger</button>
-        </div>
-
-      </form>
-    </div>
-  </div>
 </div>
+

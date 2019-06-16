@@ -1,9 +1,6 @@
 // Make sure we wait to attach our handlers until the DOM is fully loaded.
 $(function() {
 
-  $(".letsPlay").on("click", function(event) {
-    $(".jumbotron").hide();
-  });
 
     $(".devourBtn").on("click", function(event) {
       var id = $(this).data("id");
