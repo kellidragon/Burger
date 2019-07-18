@@ -1,5 +1,7 @@
 ## The Burger Bar ##
 
+Access the app here: https://kellis-burger-app.herokuapp.com/
+
 The Burger Bar demonstrates a simple full stack application.  The front-end is implemented with HTML/CSS and elements from Bootstrap framework and the backend is implemented with Node.js and Express. MySql is used for database and HTML templating is done with the help of Handlebars.
 
 ## Instructions ## 
